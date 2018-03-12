@@ -18,7 +18,7 @@ describe('pong', function() {
 
 describe('ping-pong', function() {
 
-  it('should test that all multiples of 5 return pong', function() {
+  it('should test that all multiples of 3 and 5 return ping-pong', function() {
     var output = new pingPong(15)
     expect(output).toEqual([1,2,'ping',4,"pong","ping", 7,8,"ping","pong",11,"ping",13,14,"ping-pong"])
   });
